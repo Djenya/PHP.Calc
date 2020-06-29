@@ -1,0 +1,87 @@
+#divCalc {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#divFormHistory {
+    position: absolute;
+    top: 50px;
+    left: 500px;
+}
+
+#divCalc table {
+    width: 200px;
+    margin: auto;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-width: 7px;
+    border-style: solid;
+    border-color: #e6e6e6 #d5d5d5 #b8b8b8;
+    border-radius: 10px;
+    background: linear-gradient(#ecf4fc, #d9e4f1) #d9e4f1;
+    box-shadow: 0px 0px 30px #9d9d9d;
+    transition: 0.2s;
+}
+
+#divCalc table .tdRes {
+    text-align: right;
+    color: black;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 3px;
+    background: linear-gradient(#e6effb, #ffffff) #e6effa;
+}
+
+#divCalc table .btnHistoryShowHide {
+    background: url(img/history.png) no-repeat;  
+}
+#divCalc table .btnHistoryShowHide:hover {
+    background: #feecd6 url(img/history.png) no-repeat;    
+}
+#divCalc table .btnHistoryShowHide:active {
+    background: #f59500 url(img/history.png) no-repeat;   
+}
+
+#divCalc table button {
+    width: 50px; 
+    height: 45px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #8b9bad;
+    border-radius: 3px;
+    background: linear-gradient(#f4f9fc, #d6e1ee) #f4f9fc;
+    transition: 0.2s;
+}
+#divCalc table button:hover { 
+    background: linear-gradient(#feecd6, #fbdf7e) #feecd6; 
+    border-color: #e1ca9e;
+}
+#divCalc table button:active { 
+    background: linear-gradient(#f59500, #f5ae00) #f59500; 
+    border-color: #e1ca9e;
+}
+
+#divFormHistory table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+#divFormHistory table th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+#divFormHistory table td {
+    background: #D8E6F3;
+}
+#divFormHistory table th:first-child, td:first-child {
+    text-align: left;
+}
+
